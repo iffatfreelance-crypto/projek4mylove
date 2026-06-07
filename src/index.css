@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #42526B;
+  background-color: #F4FBFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.golden-hour-gradient {
+  background: linear-gradient(180deg, #F4FBFF 0%, #FFFDF7 48%, #FCEAF3 100%);
+}
+
+.pastel-garden-gradient {
+  background:
+    linear-gradient(145deg, rgba(191, 232, 248, 0.88) 0%, rgba(255, 253, 247, 0.96) 42%, rgba(248, 200, 220, 0.45) 100%);
+}
+
+.paper-texture {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.55) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.45) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px #5F6475;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4FBFF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F8C8DC;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D982A8;
+}
+
+.glass-card {
+  background: rgba(255, 253, 247, 0.68);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(248, 200, 220, 0.38);
+  box-shadow: 0 24px 70px rgba(86, 103, 128, 0.13);
+}
+
+.section-shell {
+  background:
+    linear-gradient(180deg, rgba(244, 251, 255, 0.94) 0%, rgba(255, 253, 247, 0.98) 50%, rgba(255, 246, 250, 0.94) 100%);
+}
+
+.soft-button {
+  background: linear-gradient(135deg, #F8C8DC 0%, #D982A8 100%);
+  color: #ffffff;
+  box-shadow: 0 14px 30px rgba(217, 130, 168, 0.28);
+}
+
+.soft-button:hover {
+  background: linear-gradient(135deg, #F6B8D0 0%, #C96F93 100%);
+}
