@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { relationshipConfig } from '../data/config';
 import { X, Heart } from 'lucide-react';
